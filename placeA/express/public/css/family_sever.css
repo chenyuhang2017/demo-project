@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body, ul, li, i {
+    list-style: none;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.header ul li a{
+    text-decoration:none
+}
+
+
+/*header*/
+.header{
+    width: 100%;
+    height: 70px;
+    background: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    /*position: fixed;*/
+}
+.header .item a:hover{
+    color: red;
+}
+.header .container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header ul li{
+    float: left;
+}
+.logo_header a img{
+    margin-top: 13px;
+    vertical-align: middle;
+}
+.col-lg-4 #city{
+    margin-top: 22px;
+    padding-left: 135px;
+    font-size: 16px;
+
+}
+#city #posstion span{
+    font-weight: bold;
+}
+.col-lg-5 .item li a{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    margin-top: 19px;
+    margin-right: 15px;
+    color: #121212;
+    font-weight: bold;
+}
+
+/*sever-conter*/
+.sever-conter{
+    width: 1200px;
+    margin: 0 auto;
+}
+.classify{
+    line-height: 85px;
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #333333;
+    font-weight: bold;
+}
+.classify i{
+    cursor: pointer;
+}
+.bright {
+    margin: 0 10px;
+    font-weight: normal;
+}
+.cnav {
+    color: #fb4e55;
+}
+.centerleft {
+    width: 970px;
+    float: left;
+    margin-bottom: 50px;
+}
+#curauto {
+    cursor: auto;
+}
+.ctop {
+    height: 220px;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    border-top: none;
+    cursor: pointer;
+}
+
+.pic {
+    border: 1px solid #e5e5e5;
+    margin: 30px;
+    float: left;
+}
+.spm {
+    float: left;
+    position: relative;
+    top: 25px;
+}
+.spm i:nth-child(1) {
+    font-size: 18px;
+    color: #1d1515;
+}
+.spm i {
+    display: block;
+    line-height: 42px;
+    height: 42px;
+}
+.spm i b {
+    font-size: 20px;
+    color: #fc545e;
+    margin-left: 10px;
+}
+.spm i b em {
+    font-size: 14px;
+    font-style: normal;
+}
+.spm i b.oldpic {
+    font-size: 14px;
+    color: #898989;
+    margin-left: 40px;
+    font-weight: normal;
+}
+.spm i b.oldpic em {
+    text-decoration: line-through;
+}
+.spm i {
+    display: block;
+    line-height: 42px;
+    height: 42px;
+}
+.spm i .youhui {
+    border: 1px solid #fb474f;
+    color: #fb474f;
+    font-size: 12px;
+    padding: 0 6px;
+    border-radius: 6px;
+    text-align: center;
+    font-style: normal;
+    margin-left: 10px;
+    height: 24px;
+    line-height: 24px;
+}
+.spm i .yishou {
+    color: #fb474f;
+    margin-left: 10px;
+    font-style: normal;
+}
+#curauto .spf{
+    display: inline-block;
+    float: right;
+    width: 115px;
+    height: 115px;
+    margin: 20px 20px 0 0;
+    background: url("../img/下载.png") no-repeat center;
+}
+.spf .sys , .ljyy{
+    display: block;
+    font-size: 17px;
+}
+.spf .sys{
+    margin: 124px 0px 0 10px;
+    text-align: center;
+}
+.spf .ljyy{
+    margin: 0 0 0 10px;
+    color: #fb474f;
+    text-align: center;
+}
+.cdown {
+    clear: both;
+    background: #fff;
+    padding: 30px 20px;
+    border: 1px solid #e5e5e5;
+    margin-top: 10px;
+}
+.cdown b {
+    border-bottom: 3px solid #fb474f;
+    padding: 5px;
+    margin-top: 10px;
+    width: 66px;
+    display: block;
+}
+.cdown p {
+    line-height: 24px;
+    margin: 15px 0 5px;
+    font-size: 14px;
+}
+.cdown b {
+    border-bottom: 3px solid #fb474f;
+    padding: 5px;
+    margin-top: 10px;
+    width: 66px;
+    display: block;
+}
+.cdown p i {
+    margin-left: 20px;
+}
+.cdown p i em {
+    color: #fb474f;
+    font-style: normal;
+}
+
+/*right*/
+.centerright {
+    width: 230px;
+    float: right;
+}
+.rightct {
+    width: 230px;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    text-align: center;
+}
+.rightct h3 {
+    font-size: 20px;
+    padding-left: 10px;
+    border-bottom: 1px solid #e5e5e5;
+    height: 60px;
+    line-height: 60px;
+    margin: 0;
+    text-align: left;
+}
+.rightct p {
+    text-align: left;
+    padding: 0 10px;
+    line-height: 36px;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+.erweima {
+    width: 230px;
+    height: 290px;
+    background: url(../img/tuijianfuwushang_06.jpg) no-repeat center;
+    margin-top: 10px;
+}
+.erweima img {
+    margin: 50px 0 0 50px;
+}
+
+/*footer*/
+.footer-top{
+    text-align: center;
+    width: 100%;
+    padding-top: 60px;
+    background: #fff;
+    clear: both;
+    margin: 0 auto;
+}
+.footer-top .assure{
+    font-size: 22px;
+    color: #3d3838;
+    margin: 0;
+}
+.footer-top .servi{
+    width: 100%;
+    padding-top: 20px;
+    font-family: "微软雅黑";
+    overflow: hidden;
+    text-align: center;
+
+}
+.servi{
+    width: 100%;
+    padding-top: 20px;
+    background: #fff;
+    height: 50px;
+    font-family: "微软雅黑";
+}
+.servi ul{
+    width: 420px;
+    margin: 0 auto;
+}
+.servi ul li img {
+    margin-right: 10px;
+}
+img {
+    vertical-align: middle;
+}
+.servi ul li {
+    width: 33%;
+    float: left;
+    text-align: center;
+    color: #1d1515;
+    font-size: 18px;
+}
+
+/*footer*/
+.footer {
+    width: 100%;
+    clear: both;
+    padding-top: 50px;
+    height: 170px;
+    background: #fff;
+}
+.footer dl {
+    width: 1200px;
+    margin: 0 auto;
+}
+.footer dl dt {
+    float: left;
+    font-family: " 微软雅黑";
+    font-size: 18px;
+}
+.footer dl dd span {
+    font-size: 16px;
+    color: #898989;
+    display: inline-block;
+    width: 8.5%;
+    text-align: center;
+    font-weight: 200;
+    cursor: pointer;
+    font-family: "微软雅黑";
+}
+.footer dl dd {
+    margin-left: 30px;
+    width: 1090px;
+    line-height: 30px;
+    float: left;
+}
+
+
+/*lll*/
+.beian {
+    width: 100%;
+    height: 130px;
+    text-align: center;
+    padding-top: 50px;
+    background-color:#FBF8F8;
+}
+#htit {
+    position: relative;
+    bottom: 20px;
+    text-align: left;
+    font-weight: bold;
+    width: 1200px;
+    margin: 0 auto;
+    background: none;
+    color: #1d1515;
+    font-size: 18px;
+}
+.hezuo, .youqing {
+    width: 1200px;
+    margin: 0 auto;
+}
+.hezuo li:first-child {
+    margin: 0;
+}
+.hezuo li {
+    float: left;
+    width: 10%;
+    height: 60px;
+    text-align: center;
+    background: #fff;
+    margin-left: 1%;
+    line-height: 55px;
+}
+.beian p {
+    color: #898989;
+}

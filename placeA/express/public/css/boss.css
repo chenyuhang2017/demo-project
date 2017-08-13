@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, ul, li, i {
+    list-style: none;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.header ul li a{
+    text-decoration:none
+}
+
+
+/*header*/
+.header{
+    width: 100%;
+    height: 70px;
+    background: #fff;
+    border-bottom: 1px solid #e5e5e5;
+}
+.header .item a:hover{
+    color: red;
+}
+.header .container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header ul li{
+    float: left;
+}
+.logo_header a img{
+    margin-top: 13px;
+    vertical-align: middle;
+}
+.col-lg-4 #city{
+    margin-top: 22px;
+    padding-left: 135px;
+    font-size: 16px;
+
+}
+#city #posstion span{
+    font-weight: bold;
+}
+.col-lg-5 .item li a{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    margin-top: 19px;
+    margin-right: 15px;
+    color: #121212;
+    font-weight: bold;
+}

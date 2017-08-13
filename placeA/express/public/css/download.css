@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body, ul, li, i {
+    list-style: none;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.header ul li a{
+    text-decoration:none
+}
+
+
+/*header*/
+.header{
+    width: 100%;
+    height: 70px;
+    background: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    position: fixed;
+}
+.header .item a:hover{
+    color: red;
+}
+.header .container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header ul li{
+    float: left;
+}
+.logo_header a img{
+    margin-top: 13px;
+    vertical-align: middle;
+}
+ .col-lg-4 #city{
+     margin-top: 22px;
+     padding-left: 135px;
+     font-size: 16px;
+
+}
+#city #posstion span{
+     font-weight: bold;
+ }
+ .col-lg-5 .item li a{
+     display: inline-block;
+     vertical-align: middle;
+     font-size: 16px;
+     margin-top: 19px;
+     margin-right: 15px;
+     color: #121212;
+     font-weight: bold;
+ }
+ /*download--banner 图*/
+.download{
+    background: url("../img/图片助手(ImageAssistant)/下载APP/xiazaiye-_02.jpg") no-repeat center;
+    width: 100%;
+    height: 560px;
+    margin: 0 auto;
+}
+.xiazai {
+    width: 1200px;
+    height: 420px;
+    margin: 0 auto;
+    padding-top: 270px;
+    padding-right: 340px;
+}
+.xiazai dl {
+    float: right;
+    width: 308px;
+    height: 96px;
+}
+dl {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.xiazai dl dt {
+    float: left;
+}
+img {
+    vertical-align: middle;
+}
+dt {
+    font-weight: 700;
+}
+dd {
+    margin-left: 0;
+}
+.xiazai dl dd {
+    float: right;
+    width: 188px;
+    background: green;
+    height: 36px;
+    line-height: 36px;
+    margin-top: 5px;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 17px;
+    padding-left: 20px;
+}
+
+.xiazai dl dd img {
+    margin-right: 18px;
+    margin-bottom: 5px;
+}
+.xiazai dl dd {
+    float: right;
+    width: 188px;
+    background: green;
+    height: 36px;
+    line-height: 36px;
+    margin-top: 5px;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 17px;
+    padding-left: 20px;
+}
+.xiazai dl dd a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/*body*/
+.body{
+    /*background-color: #8aff48;*/
+    padding-bottom: 30px;
+}
+.body-inside{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 60px;
+}
+.body-inside ul li{
+    list-style: none;
+}
+
+/*item*/
+.item{
+    margin-top: 5px;
+}
+.body-inside .item li{
+    width: 32.5%;
+    margin-right: 0.5%;
+    height: 216px;
+    border: 1px solid #eaeaea;
+    display: inline-block;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+.item li span {
+    float: right;
+    margin-top: 55px;
+}
+
+.item li span i {
+    display: block;
+    line-height: 20px;
+    text-align: left;
+    width: 180px;
+    overflow: hidden;
+    color: #1d1515;
+}
+
+
+.body-inside .item li span i b {
+    font-size: 18px;
+    font-weight: 700;
+}
+.body-inside .item li span i:nth-child(2) {
+    margin-top: 10px;
+    color: #1d1515;
+}
+
+
+/*background-photo*/
+.background {
+    width: 100%;
+    height: 480px;
+    background-color: #f8f8f8;
+}
+.background-inside , .footer-background-inside{
+    width: 1200px;
+    margin: 0 auto;
+    /*height: 420px;*/
+    /*background-color: #1b6d85;*/
+}
+.background-inside .inside{
+    float: left;
+    margin: 200px 100px;
+    font-size: 22px;
+    text-align: center;
+    color: #3d3838;
+}
+img{
+    vertical-align: middle;
+}
+
+/*footer-background*/
+.footer-background {
+    width: 100%;
+    height: 480px;
+}
+.footer-insede{
+    float: right;
+    margin: 190px 0;
+    font-size: 22px;
+    text-align: center;
+    color: #3d3838;
+    position: relative;
+    right: 200px;
+}
+
+/*footer重复区域*/
+/*footer区域*/
+.footer-top{
+    text-align: center;
+    width: 100%;
+    padding-top: 60px;
+    background: #fff;
+    clear: both;
+    margin: 0 auto;
+}
+.footer-top .assure{
+    font-size: 22px;
+    color: #3d3838;
+    margin: 0;
+}
+.footer-top .servi{
+    width: 100%;
+    padding-top: 20px;
+    font-family: "微软雅黑";
+    overflow: hidden;
+    text-align: center;
+
+}
+/*.footer .servi ul{*/
+/*margin: 0px auto;*/
+/*}*/
+.servi{
+    width: 100%;
+    padding-top: 20px;
+    background: #fff;
+    height: 50px;
+    font-family: "微软雅黑";
+}
+.servi ul{
+    width: 420px;
+    margin: 0 auto;
+}
+.servi ul li img {
+    margin-right: 10px;
+}
+img {
+    vertical-align: middle;
+}
+.servi ul li {
+    width: 33%;
+    float: left;
+    text-align: center;
+    color: #1d1515;
+    font-size: 18px;
+}
+
+/*footer*/
+.footer {
+    width: 100%;
+    clear: both;
+    padding-top: 50px;
+    height: 170px;
+    background: #fff;
+}
+.footer dl {
+    width: 1200px;
+    margin: 0 auto;
+}
+.footer dl dt {
+    float: left;
+    font-family: " 微软雅黑";
+    font-size: 18px;
+}
+.footer dl dd span {
+    font-size: 16px;
+    color: #898989;
+    display: inline-block;
+    width: 8.5%;
+    text-align: center;
+    font-weight: 200;
+    cursor: pointer;
+    font-family: "微软雅黑";
+}
+.footer dl dd {
+    margin-left: 30px;
+    width: 1090px;
+    line-height: 30px;
+    float: left;
+}
+
+
+/*lll*/
+.beian {
+    width: 100%;
+    height: 130px;
+    text-align: center;
+    padding-top: 50px;
+    background-color:#FBF8F8;
+}
+#htit {
+    position: relative;
+    bottom: 20px;
+    text-align: left;
+    font-weight: bold;
+    width: 1200px;
+    margin: 0 auto;
+    background: none;
+    color: #1d1515;
+    font-size: 18px;
+}
+.hezuo, .youqing {
+    width: 1200px;
+    margin: 0 auto;
+}
+.hezuo li:first-child {
+    margin: 0;
+}
+.hezuo li {
+    float: left;
+    width: 10%;
+    height: 60px;
+    text-align: center;
+    background: #fff;
+    margin-left: 1%;
+    line-height: 55px;
+}
+.beian p {
+    color: #898989;
+}

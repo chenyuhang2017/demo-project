@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.wrapper{
+    width: 100%;
+}
+.login{
+    width: 1200px;
+    margin: 0 auto;
+    /*background-color: #1b6d85;*/
+}
+.login-window{
+    width: 330px;
+    height: 314px;
+    padding: 15px;
+    margin: 100px auto;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    /*background-color: #3c763d;*/
+}
+/*input{*/
+    /*width: 300px;*/
+    /*height: 55px;*/
+    /*border-radius: 5px;*/
+    /*padding: 10px;*/
+    /*background: url("img/用户.png") left no-repeat;*/
+/*}*/
+#basic-addon1{
+
+    background: url("../img/用户.png") center  no-repeat;
+}
+#basic-addon2{
+    background: url("../img/锁.png") center  no-repeat;
+}

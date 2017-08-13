@@ -1,0 +1,141 @@
+
+*{
+  margin: 0;
+  padding: 0;
+
+}
+/*#liu{*/
+/*height: 100000px;*/
+/*}*/
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  z-index: 1;
+  width: 1349px;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, .12);
+
+}
+img{
+  vertical-align: middle;
+}
+.header:hover{
+  color: red;
+}
+.header .family-sever{
+  width: 1349px;
+  /*background-color: #1b6d85;*/
+  /*padding-left: 90px;*/
+}
+ul li {
+  list-style: none;
+}
+a{
+  text-decoration:none;
+}
+#city{
+  display: inline-block;
+  width: 240px;
+  text-align: right;
+  position: relative;
+  vertical-align: middle
+}
+#city a span:hover{
+  color: #e94840;
+}
+.logo{
+
+  margin-left: 90px;
+  position: relative;
+  /*line-height: 20px;*/
+}
+.logo_herad{
+  margin: 15px 0;
+  display: inline-block;
+}
+
+.logo .item{
+  margin-left: 165px;
+  display: inline-block;
+  vertical-align: middle;
+  /*margin: -5px 0;*/
+}
+.logo .item li a{
+  display: inline-block;
+  margin-right: 30px;
+}
+.item li a {
+  text-decoration:none;
+  color: #121212;
+  font-size:16px;
+  font-weight:bold;
+  line-height: 20px;
+}
+.item li a:hover{
+  color: red;
+}
+#posstion{
+  font-size:16px;
+  font-weight:bold;
+  position: relative;
+  color: #121212;
+  top: 0px;
+  left: 4px;
+}
+.item li{
+  float: left;
+}
+
+
+
+
+
+
+.poitioncity {
+  border-top: 1px solid #e7e7e7;
+}
+.hotcity, .quicklycity {
+  width: 1200px;
+  margin: 40px auto 0;
+}
+.poitioncity h3 {
+  color: #929292;
+  font-size: 16px;
+}
+.hotcity ul {
+  width: 100%;
+  background: #f8f8f8;
+  margin: 0;
+}
+.poitioncity ul li {
+  font-size: 16px;
+  line-height: 40px;
+  padding: 0;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+}
+.quicklycity ul li.fist {
+  padding: 0 10px;
+  height: 24px;
+  text-align: center;
+  line-height: 24px;
+  background: #fb474f;
+  color: #fff;
+}
+.quicklycity ul li {
+  line-height: 40px;
+  width: 3%;
+  display: inline-block;
+  text-align: center;
+  margin: 0 0.5%;
+}
+.poitioncity ul li {
+  font-size: 16px;
+  line-height: 40px;
+  padding: 0 1%;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+}

@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.wrapper{
+    width: 100%;
+}
+.login{
+    width: 1200px;
+    margin: 0 auto;
+    /*background-color: #1b6d85;*/
+}
+.login-window{
+    width: 330px;
+    /*height: 314px;*/
+    padding: 15px;
+    margin: 100px auto;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    /*background-color: #3c763d;*/
+}
+.login h2{
+    background: url("../img/logo.png") center no-repeat;
+    height: 70px;
+    line-height: 70px;
+    text-indent: -9999px;
+    background-size: 290px;
+    margin-top: 0;
+}
+.login-window .className input{
+    height: 50px;
+}
+.text span{
+    height: 100px;
+    width: 97px;
+    color: #555555;
+    background-color: #EEEEEE;
+    line-height: 92px;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #cccccc;
+    cursor:pointer;
+    margin-bottom: 10px;
+}
+.login-window .btn-register button{
+    width: 298px;
+    height: 46px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.state1{
+    color:#aaa;
+}
+.state2{
+    color:#000;
+}
+.state3{
+    color:red;
+}
+.state4{
+    color:green;
+}
+
